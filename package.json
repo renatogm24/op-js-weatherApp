@@ -1,0 +1,31 @@
+{
+  "name": "op-js-weatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatogm24/op-js-weatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatogm24/op-js-weatherApp/issues"
+  },
+  "homepage": "https://github.com/renatogm24/op-js-weatherApp#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "prettier": "2.4.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
