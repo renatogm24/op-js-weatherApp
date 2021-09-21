@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="javascript:void(0)" id="searchBar">
+      <input type="text" placeholder="Search..." />
+      <button id="searchButton" type="submit">
+        <img src="img/outline_search_white_18dp.png" alt="" />
+      </button>
+    </form>
+    <div id="title">Weather</div>
+    <img id="loading" src="img/ben-redblock-loading.gif" />
+    <div id="current">
+      <div class="location">
+        <img
+          id="icon-location"
+          src="img/outline_location_on_white_24dp.png"
+          alt=""
+        /><span id="place_location"></span>
+      </div>
+      <div class="date"></div>
+      <div class="temp-view">
+        <div class="temp-view-left">
+          <div class="icon"></div>
+          <div class="temperature"></div>
+        </div>
+        <div class="temp-view-right">
+          <div class="weather"></div>
+          <div class="minmax"></div>
+          <div class="feelsLike"></div>
+        </div>
+      </div>
+    </div>
+    <div id="forecast"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
